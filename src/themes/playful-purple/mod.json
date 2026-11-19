@@ -1,10 +1,10 @@
 {
-  "name": "playful purple",
-  "id": "ae7862a9-5dbe-4f2c-9931-940f3ba5015d",
+  "name": "Playful Purple",
   "version": "0.2.0",
-  "description": "a purple-shaded theme with bright highlights.",
-  "preview": "playful-purple.png",
-  "tags": ["theme", "dark"],
+  "id": "ae7862a9-5dbe-4f2c-9931-940f3ba5015d",
+  "description": "A purple-shaded theme with bright highlights.",
+  "thumbnail": "playful-purple.png",
+  "tags": ["dark"],
   "authors": [
     {
       "name": "Lizishan",
@@ -17,11 +17,5 @@
       "avatar": "https://styles.redditmedia.com/t5_2js69j/styles/profileIcon_jvnzmo30fyq41.jpg"
     }
   ],
-  "css": {
-    "frame": ["variables.css"],
-    "client": ["variables.css"],
-    "menu": ["variables.css"]
-  },
-  "js": {},
-  "options": []
+  "clientStyles": ["client.css"]
 }

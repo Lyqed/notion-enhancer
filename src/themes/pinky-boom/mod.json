@@ -1,10 +1,10 @@
 {
-  "name": "pinky boom",
-  "id": "b5f43232-391b-415a-9099-4334dc6c7b55",
+  "name": "Pinky Boom",
   "version": "0.2.0",
-  "description": "pinkify your life.",
-  "preview": "pinky-boom.png",
-  "tags": ["theme", "light"],
+  "id": "b5f43232-391b-415a-9099-4334dc6c7b55",
+  "description": "Pinkify your life.",
+  "thumbnail": "pinky-boom.png",
+  "tags": ["light"],
   "authors": [
     {
       "name": "mugiwarafx",
@@ -12,11 +12,5 @@
       "avatar": "https://avatars.githubusercontent.com/u/58401248"
     }
   ],
-  "css": {
-    "frame": ["variables.css"],
-    "client": ["variables.css"],
-    "menu": ["variables.css"]
-  },
-  "js": {},
-  "options": []
+  "clientStyles": ["client.css"]
 }

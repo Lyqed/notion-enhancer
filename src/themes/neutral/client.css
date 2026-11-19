@@ -1,0 +1,75 @@
+/**
+ * notion-enhancer: neutral
+ * (c) 2020 Arecsu
+ * (c) 2021 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+body.dark {
+  --theme--fg-primary: #dadada;
+  --theme--fg-secondary: #dadadac0;
+  --theme--fg-border: rgba(78, 78, 78, 0.7);
+  --theme--fg-gray: #858585;
+  --theme--fg-brown: #484848;
+  --theme--fg-orange: #ec9873;
+  --theme--fg-yellow: #e2c06f;
+  --theme--fg-green: #92b178;
+  --theme--fg-blue: #719cca;
+  --theme--fg-purple: #ab82bb;
+  --theme--fg-pink: #d285aa;
+  --theme--fg-red: #ce535f;
+
+  --theme--bg-primary: #131313;
+  --theme--bg-secondary: #161616;
+  --theme--bg-hover: rgb(29, 29, 29);
+  --theme--bg-light_gray: rgba(112, 112, 112, 0.175);
+  --theme--bg-gray: #585858;
+  --theme--bg-brown: #333333;
+  --theme--bg-orange: rgb(154, 90, 63, 0.175);
+  --theme--bg-yellow: rgb(181, 138, 70, 0.175);
+  --theme--bg-green: rgb(101, 121, 83, 0.175);
+  --theme--bg-blue: #355475;
+  --theme--bg-purple: #775186;
+  --theme--bg-pink: #8e4b63;
+  --theme--bg-red: #8c3d3d;
+
+  --theme--dim-light_gray: rgba(112, 112, 112, 0.175);
+  --theme--dim-gray: #585858;
+  --theme--dim-brown: #333333;
+  --theme--dim-orange: rgb(154, 90, 63, 0.175);
+  --theme--dim-yellow: rgb(181, 138, 70, 0.175);
+  --theme--dim-green: rgb(101, 121, 83, 0.175);
+  --theme--dim-blue: #355475;
+  --theme--dim-purple: #775186;
+  --theme--dim-pink: #8e4b63;
+  --theme--dim-red: #8c3d3d;
+
+  --theme--accent-primary: #404040;
+  --theme--accent-primary_hover: #6d6d6d;
+  --theme--accent-primary_transparent: #52525244;
+  --theme--accent-secondary: #ce535f;
+  --theme--accent-secondary_hover: #8c3d3dad;
+
+  --theme--scrollbar-track: transparent;
+  --theme--scrollbar-thumb: #232425;
+  --theme--scrollbar-thumb_hover: #373838;
+
+  --theme--code-inline_fg: #dadada;
+  --theme--code-inline_bg: #333333;
+  --theme--code-block_fg: #dadada;
+  --theme--code-block_bg: #0e0e0e;
+  --theme--code-attr_name: #e2c06f;
+  --theme--code-attr_value: #ec9873;
+  --theme--code-builtin: #e2c06f;
+  --theme--code-comment: #858585;
+  --theme--code-doctype: #858585;
+  --theme--code-function: #719cca;
+  --theme--code-important: #e2c06f;
+  --theme--code-keyword: #d285aa;
+  --theme--code-number: #ab82bb;
+  --theme--code-operator: #e2c06f;
+  --theme--code-property: #d285aa;
+  --theme--code-punctuation: #858585;
+  --theme--code-string: #ec9873;
+  --theme--code-tag: #d285aa;
+}

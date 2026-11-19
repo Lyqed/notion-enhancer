@@ -1,42 +1,31 @@
 {
-  "name": "dark+",
-  "id": "c86cfe98-e645-4822-aa6b-e2de1e08bafa",
+  "name": "Dark+",
   "version": "0.2.0",
-  "description": "a vivid-colour near-black theme, with configurable accents.",
-  "preview": "dark+.png",
-  "tags": ["theme", "dark"],
+  "id": "c86cfe98-e645-4822-aa6b-e2de1e08bafa",
+  "description": "A vivid-colour near-black theme, with configurable accents.",
+  "thumbnail": "dark+.png",
+  "tags": ["dark"],
   "authors": [
     {
       "name": "dragonwocky",
-      "email": "thedragonring.bod@gmail.com",
       "homepage": "https://dragonwocky.me/",
       "avatar": "https://dragonwocky.me/avatar.jpg"
     }
   ],
-  "css": {
-    "frame": ["variables.css"],
-    "client": ["variables.css"],
-    "menu": ["variables.css"]
-  },
-  "js": {
-    "frame": ["theme.mjs"],
-    "client": ["theme.mjs"],
-    "menu": ["theme.mjs"]
-  },
   "options": [
     {
       "type": "color",
       "key": "primary",
-      "label": "primary accent color",
-      "tooltip": "**replaces notion's blue accent**",
+      "description": "Primary accent colour. Replaces Notion's blue accent.",
       "value": "rgba(46,170,220,1)"
     },
     {
       "type": "color",
       "key": "secondary",
-      "label": "secondary accent color",
-      "tooltip": "**replaces notion's red accent**",
+      "description": "Secondary accent colour. Replaces Notion's red accent.",
       "value": "rgba(235,87,87,1)"
     }
-  ]
+  ],
+  "clientStyles": ["client.css"],
+  "clientScripts": ["client.mjs"]
 }

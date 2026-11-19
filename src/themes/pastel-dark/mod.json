@@ -1,10 +1,10 @@
 {
-  "name": "pastel dark",
-  "id": "ed48c585-4a0d-4756-a3e6-9ae662732dac",
+  "name": "Pastel Dark",
   "version": "0.2.0",
-  "description": "a smooth-transition true dark theme with a hint of pastel.",
-  "preview": "pastel-dark.png",
-  "tags": ["theme", "dark"],
+  "id": "ed48c585-4a0d-4756-a3e6-9ae662732dac",
+  "description": "A smooth-transition true dark theme with a hint of pastel.",
+  "thumbnail": "pastel-dark.png",
+  "tags": ["dark"],
   "authors": [
     {
       "name": "zenith_illinois",
@@ -12,11 +12,5 @@
       "avatar": "https://www.redditstatic.com/avatars/defaults/v2/avatar_default_5.png"
     }
   ],
-  "css": {
-    "frame": ["variables.css"],
-    "client": ["variables.css", "app.css"],
-    "menu": ["variables.css"]
-  },
-  "js": {},
-  "options": []
+  "clientStyles": ["client.css"]
 }

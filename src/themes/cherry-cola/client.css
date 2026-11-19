@@ -1,0 +1,91 @@
+/**
+ * notion-enhancer: cherry cola
+ * (c) 2020 Alexa Baldon <alnbaldon@gmail.com> (https://github.com/runargs)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+body.dark {
+  --cola--main: #180915;
+  --cola--sec: #1d0919;
+  --cola--tet: #492341;
+  --cola--info: #9b6890;
+  --cola--accent: #bf799b;
+  --cola--light_gray: #ADADAD;
+  --cola--gray: #8a8a8a;
+  --cola--brown: #755241;
+  --cola--orange: #e6846b;
+  --cola--yellow: #d7b56e;
+  --cola--green: #8f9b4f;
+  --cola--blue: #6ebdb7;
+  --cola--purple: #813d63;
+  --cola--pink: #d86f71;
+  --cola--red: #a33232;
+
+  --theme--fg-primary: #fff;
+  --theme--fg-secondary: var(--cola--info);
+  --theme--fg-border: rgba(73, 35, 65, 0.7);
+  --theme--fg-gray: var(--cola--gray);
+  --theme--fg-brown: var(--cola--brown);
+  --theme--fg-orange: var(--cola--orange);
+  --theme--fg-yellow: var(--cola--yellow);
+  --theme--fg-green: var(--cola--green);
+  --theme--fg-blue: var(--cola--blue);
+  --theme--fg-purple: var(--cola--purple);
+  --theme--fg-pink: var(--cola--pink);
+  --theme--fg-red: var(--cola--red);
+
+  --theme--bg-primary: var(--cola--main);
+  --theme--bg-secondary: var(--cola--sec);
+  --theme--bg-hover: var(--cola--tet);
+  --theme--bg-light_gray: color-mix(in srgb, var(--cola--light_gray) 60%, var(--theme--bg-primary));
+  --theme--bg-gray: color-mix(in srgb, var(--cola--gray) 60%, var(--theme--bg-primary));
+  --theme--bg-brown: var(--cola--brown);
+  --theme--bg-orange: color-mix(in srgb, var(--cola--orange) 60%, var(--theme--bg-primary));
+  --theme--bg-yellow: color-mix(in srgb, var(--cola--yellow) 60%, var(--theme--bg-primary));
+  --theme--bg-green: color-mix(in srgb, var(--cola--green) 60%, var(--theme--bg-primary));
+  --theme--bg-blue: color-mix(in srgb, var(--cola--blue) 60%, var(--theme--bg-primary));
+  --theme--bg-purple: var(--cola--purple);
+  --theme--bg-pink: color-mix(in srgb, var(--cola--pink) 60%, var(--theme--bg-primary));
+  --theme--bg-red: var(--cola--red);
+
+  --theme--dim-light_gray: color-mix(in srgb, var(--cola--gray) 45%, var(--theme--bg-primary));
+  --theme--dim-gray: color-mix(in srgb, var(--cola--gray) 45%, var(--theme--bg-primary));
+  --theme--dim-brown: var(--cola--brown);
+  --theme--dim-orange: color-mix(in srgb, var(--cola--orange) 45%, var(--theme--bg-primary));
+  --theme--dim-yellow: color-mix(in srgb, var(--cola--yellow) 45%, var(--theme--bg-primary));
+  --theme--dim-green: color-mix(in srgb, var(--cola--green) 45%, var(--theme--bg-primary));
+  --theme--dim-blue: color-mix(in srgb, var(--cola--blue) 45%, var(--theme--bg-primary));
+  --theme--dim-purple: var(--cola--purple);
+  --theme--dim-pink: color-mix(in srgb, var(--cola--pink) 45%, var(--theme--bg-primary));
+  --theme--dim-red: var(--cola--red);
+
+  --theme--accent-primary: var(--cola--accent);
+  --theme--accent-primary_hover: #bd6992;
+  --theme--accent-primary_contrast: #fff;
+  --theme--accent-primary_transparent: rgba(78, 32, 69, 0.5);
+  --theme--accent-secondary: var(--cola--accent);
+  --theme--accent-secondary_hover: #bf799b63;
+  --theme--accent-secondary_contrast: #fff;
+
+  --theme--scrollbar-track: transparent;
+  --theme--scrollbar-thumb: var(--cola--sec);
+  --theme--scrollbar-thumb_hover: var(--cola--accent);
+
+  --theme--code-inline_fg: var(--cola--accent);
+  --theme--code-inline_bg: var(--cola--main);
+  --theme--code-block_bg: var(--cola--sec);
+  --theme--code-atrule: var(--cola--orange);
+  --theme--code-attr_name: var(--cola--yellow);
+  --theme--code-builtin: var(--cola--yellow);
+  --theme--code-comment: var(--cola--gray);
+  --theme--code-doctype: var(--cola--gray);
+  --theme--code-function: var(--cola--blue);
+  --theme--code-keyword: var(--cola--pink);
+  --theme--code-number: var(--cola--purple);
+  --theme--code-operator: var(--cola--yellow);
+  --theme--code-property: var(--cola--pink);
+  --theme--code-punctuation: var(--cola--gray);
+  --theme--code-regex: var(--cola--yellow);
+  --theme--code-selector: var(--cola--orange);
+  --theme--code-tag: var(--cola--pink);
+}

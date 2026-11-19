@@ -12,5 +12,16 @@
   "extensions/no-peeking",
   "extensions/focus",
   "themes/classic-dark",
-  "themes/material-ocean"
+  "themes/material-ocean",
+  "themes/cherry-cola",
+  "themes/dark+",
+  "themes/dracula",
+  "themes/gruvbox-dark",
+  "themes/gruvbox-light",
+  "themes/light+",
+  "themes/neutral",
+  "themes/nord",
+  "themes/pastel-dark",
+  "themes/pinky-boom",
+  "themes/playful-purple"
 ]

@@ -1,0 +1,75 @@
+/**
+ * notion-enhancer: dark+
+ * (c) 2021 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+body.dark {
+  --theme--fg-primary: rgb(255, 255, 255);
+  --theme--fg-secondary: rgb(228, 228, 228);
+  --theme--fg-border: rgba(36, 36, 36, 0.7);
+  --theme--fg-gray: rgba(151, 154, 155, 0.95);
+  --theme--fg-brown: rgb(147, 114, 100);
+  --theme--fg-orange: rgb(255, 163, 68);
+  --theme--fg-yellow: rgb(255, 220, 73);
+  --theme--fg-green: rgb(50, 169, 104);
+  --theme--fg-blue: rgb(82, 156, 202);
+  --theme--fg-purple: rgb(154, 109, 215);
+  --theme--fg-pink: rgb(226, 85, 161);
+  --theme--fg-red: rgb(218, 47, 35);
+
+  --theme--bg-primary: rgb(14, 14, 14);
+  --theme--bg-secondary: rgb(0, 0, 0);
+  --theme--bg-hover: rgba(55, 56, 56, 0.3);
+  --theme--bg-light_gray: rgba(165, 166, 167, 0.5);
+  --theme--bg-gray: rgba(126, 128, 129, 0.5);
+  --theme--bg-brown: #50331f;
+  --theme--bg-orange: rgba(255, 155, 0, 0.58);
+  --theme--bg-yellow: rgba(183, 156, 0, 0.445);
+  --theme--bg-green: rgb(50, 129, 47);
+  --theme--bg-blue: rgba(0, 90, 146, 0.71);
+  --theme--bg-purple: rgba(91, 49, 148, 0.74);
+  --theme--bg-pink: rgba(243, 61, 159, 0.5);
+  --theme--bg-red: rgb(122, 20, 20);
+
+  --theme--dim-light_gray: rgba(165, 166, 167, 0.089);
+  --theme--dim-gray: rgba(126, 128, 129, 0.301);
+  --theme--dim-brown: #50331fad;
+  --theme--dim-orange: rgba(255, 153, 0, 0.315);
+  --theme--dim-yellow: rgba(183, 156, 0, 0.445);
+  --theme--dim-green: rgba(50, 129, 47, 0.39);
+  --theme--dim-blue: rgba(0, 90, 146, 0.521);
+  --theme--dim-purple: rgba(90, 49, 148, 0.349);
+  --theme--dim-pink: rgba(243, 61, 158, 0.301);
+  --theme--dim-red: rgba(122, 20, 20, 0.623);
+
+  --theme--accent-primary: var(--dark_plus--accent_blue, rgb(46, 170, 220));
+  --theme--accent-primary_hover: var(--dark_plus--accent_blue-hover, rgb(6, 156, 205));
+  --theme--accent-primary_contrast: var(--dark_plus--accent_blue-text, #fff);
+  --theme--accent-primary_transparent: var( --dark_plus--accent_blue-selection, rgb(46, 170, 220, 0.25) );
+  --theme--accent-secondary: var(--dark_plus--accent_red, #eb5757);
+  --theme--accent-secondary_hover: var(--dark_plus--accent_red-button, rgba(235, 87, 87, 0.1));
+  --theme--accent-secondary_contrast: var(--dark_plus--accent_red-text, #fff);
+
+  --theme--scrollbar-track: transparent;
+  --theme--scrollbar-thumb: #181818;
+  --theme--scrollbar-thumb_hover: #222222;
+
+  --theme--code-inline_fg: #7dc582;
+  --theme--code-inline_bg: rgb(0, 0, 0);
+  --theme--code-block_fg: rgb(255, 255, 255);
+  --theme--code-block_bg: rgb(0, 0, 0);
+  --theme--code-atrule: #7dc582;
+  --theme--code-builtin: #ff6294;
+  --theme--code-comment: rgb(166, 175, 201);
+  --theme--code-doctype: rgb(166, 175, 201);
+  --theme--code-function: #c7e1ff;
+  --theme--code-keyword: #c397d8;
+  --theme--code-number: #c397d8;
+  --theme--code-operator: rgb(166, 175, 201);
+  --theme--code-property: #82aed8;
+  --theme--code-punctuation: rgb(166, 175, 201);
+  --theme--code-regex: #da265f;
+  --theme--code-selector: #ff6294;
+  --theme--code-string: #7dc582;
+}

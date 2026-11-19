@@ -1,10 +1,10 @@
 {
-  "name": "light+",
-  "id": "336cbc54-67b9-4b00-b4a2-9cc86eef763b",
+  "name": "Light+",
   "version": "0.2.0",
-  "description": "a simple white theme that brightens coloured text and blocks, with configurable accents.",
-  "preview": "light+.png",
-  "tags": ["theme", "light"],
+  "id": "336cbc54-67b9-4b00-b4a2-9cc86eef763b",
+  "description": "A simple white theme that brightens coloured text and blocks, with configurable accents.",
+  "thumbnail": "light+.png",
+  "tags": ["light"],
   "authors": [
     {
       "name": "Lizishan",
@@ -12,37 +12,26 @@
       "avatar": "https://styles.redditmedia.com/t5_110nz4/styles/profileIcon_h1m3b16exoi51.jpg"
     }
   ],
-  "css": {
-    "frame": ["variables.css"],
-    "client": ["variables.css"],
-    "menu": ["variables.css"]
-  },
-  "js": {
-    "frame": ["theme.mjs"],
-    "client": ["theme.mjs"],
-    "menu": ["theme.mjs"]
-  },
   "options": [
     {
       "type": "color",
       "key": "primary",
-      "label": "primary accent color",
-      "tooltip": "**replaces notion's blue accent**",
+      "description": "Primary accent colour. Replaces Notion's blue accent.",
       "value": "rgba(46,170,220,1)"
     },
     {
       "type": "color",
       "key": "secondary",
-      "label": "secondary accent color",
-      "tooltip": "**replaces notion's red accent**",
+      "description": "Secondary accent colour. Replaces Notion's red accent.",
       "value": "rgba(235,87,87,1)"
     },
     {
       "type": "color",
       "key": "highlight",
-      "label": "highlight accent color",
-      "tooltip": "**affects dividers, text, icons and hovered scrollbars. set this to rgba(0,0,0,0) to disable it**",
+      "description": "Highlight accent colour. Affects dividers, text, icons and hovered scrollbars. Set this to <code>rgba(0,0,0,0)</code> to disable it.",
       "value": "rgba(0,0,0,0)"
     }
-  ]
+  ],
+  "clientStyles": ["client.css"],
+  "clientScripts": ["client.mjs"]
 }

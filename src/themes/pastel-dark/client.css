@@ -1,0 +1,75 @@
+/**
+ * notion-enhancer: pastel dark
+ * (c) 2020 u/zenith_illinois
+ * (c) 2021 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+body.dark {
+  --theme--fg-primary: #ffffff;
+  --theme--fg-secondary: #909090;
+  --theme--fg-border: rgba(255, 255, 255, 0.1);
+  --theme--fg-gray: #b1aeab;
+  --theme--fg-brown: #d8b6a6;
+  --theme--fg-orange: #fde3c0;
+  --theme--fg-yellow: #fcde93;
+  --theme--fg-green: #b3f5c8;
+  --theme--fg-blue: #bfe0fd;
+  --theme--fg-purple: #dac7fa;
+  --theme--fg-pink: #f7b8dc;
+  --theme--fg-red: #f8acb4;
+
+  --theme--bg-primary: #0b0b0b;
+  --theme--bg-secondary: #0f0f0f;
+  --theme--bg-hover: #15161c;
+  --theme--bg-light_gray: rgb(255, 255, 255, 0.2);
+  --theme--bg-gray: rgb(255, 255, 255, 0.2);
+  --theme--bg-brown: rgb(255, 255, 255, 0.2);
+  --theme--bg-orange: rgb(255, 255, 255, 0.2);
+  --theme--bg-yellow: rgb(255, 255, 255, 0.2);
+  --theme--bg-green: rgb(255, 255, 255, 0.2);
+  --theme--bg-blue: rgb(255, 255, 255, 0.2);
+  --theme--bg-purple: rgb(255, 255, 255, 0.2);
+  --theme--bg-pink: rgb(255, 255, 255, 0.2);
+  --theme--bg-red: rgb(255, 255, 255, 0.2);
+
+  --theme--dim-light_gray: #c2c1c089;
+  --theme--dim-gray: #c2c1c089;
+  --theme--dim-brown: color-mix(in srgb, #dacec992 45%, var(--theme--bg-primary));
+  --theme--dim-orange: color-mix(in srgb, #fff0dc9f 45%, var(--theme--bg-primary));
+  --theme--dim-yellow: color-mix(in srgb, #ffe6a6ad 45%, var(--theme--bg-primary));
+  --theme--dim-green: color-mix(in srgb, #c8fdd9a3 45%, var(--theme--bg-primary));
+  --theme--dim-blue: color-mix(in srgb, #d1e9ffa3 45%, var(--theme--bg-primary));
+  --theme--dim-purple: color-mix(in srgb, #e3d3ffa8 45%, var(--theme--bg-primary));
+  --theme--dim-pink: color-mix(in srgb, #fdcce8b1 45%, var(--theme--bg-primary));
+  --theme--dim-red: color-mix(in srgb, #ffc8ce9e 45%, var(--theme--bg-primary));
+
+  --theme--accent-primary: #b887f7;
+  --theme--accent-primary_hover: #08d7c2;
+  --theme--accent-primary_transparent: rgba(184, 135, 247, 0.3);
+  --theme--accent-secondary: #08d7c2;
+  --theme--accent-secondary_hover: #08d7c226;
+
+  --theme--scrollbar-track: transparent;
+  --theme--scrollbar-thumb: #141414;
+  --theme--scrollbar-thumb_hover: #1b1b1b;
+
+  --theme--code-inline_fg: #b3f5c8;
+  --theme--code-inline_bg: rgb(8, 8, 8);
+  --theme--code-block_fg: #ffffff;
+  --theme--code-block_bg: #0f0f0f;
+  --theme--code-attr_name: #fcde93;
+  --theme--code-attr_value: #fde3c0;
+  --theme--code-builtin: #fcde93;
+  --theme--code-comment: #b1aeab;
+  --theme--code-doctype: #b1aeab;
+  --theme--code-function: #bfe0fd;
+  --theme--code-important: #fcde93;
+  --theme--code-keyword: #f7b8dc;
+  --theme--code-number: #dac7fa;
+  --theme--code-operator: #fcde93;
+  --theme--code-property: #f7b8dc;
+  --theme--code-punctuation: #b1aeab;
+  --theme--code-string: #fde3c0;
+  --theme--code-tag: #f7b8dc;
+}

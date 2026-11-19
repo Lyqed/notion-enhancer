@@ -1,0 +1,56 @@
+/**
+ * notion-enhancer: light+
+ * (c) 2020 Lizishan
+ * (c) 2021 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+body:not(.dark) {
+  --theme--fg-primary: var(--light_plus--accent_highlight, rgb(55, 43, 47));
+  --theme--fg-secondary: var(--light_plus--accent_highlight-shaded, rgba(55, 43, 47, 0.6));
+  --theme--fg-border: var(--light_plus--accent_highlight, rgb(237, 237, 236));
+  --theme--fg-gray: rgba(151, 154, 155, 0.95);
+  --theme--fg-brown: rgb(167, 126, 100);
+  --theme--fg-orange: rgb(255, 134, 0);
+  --theme--fg-yellow: rgb(255, 195, 0);
+  --theme--fg-green: rgb(0, 171, 0);
+  --theme--fg-blue: rgb(0, 121, 255);
+  --theme--fg-purple: rgb(126, 0, 255);
+  --theme--fg-pink: rgb(255, 0, 208);
+  --theme--fg-red: rgb(255, 0, 0);
+
+  --theme--bg-light_gray: rgb(240, 240, 240);
+  --theme--bg-gray: rgb(234, 234, 234);
+  --theme--bg-brown: rgb(206, 206, 206);
+  --theme--bg-orange: rgb(254, 214, 155);
+  --theme--bg-yellow: #fcffd8;
+  --theme--bg-green: #d5fded;
+  --theme--bg-blue: #e2f5ff;
+  --theme--bg-purple: #efe6ff;
+  --theme--bg-pink: #ffe9f1;
+  --theme--bg-red: rgb(248, 215, 218);
+
+  --theme--dim-light_gray: #EBEBED;
+  --theme--dim-gray: #e2e3e5;
+  --theme--dim-brown: rgb(130, 118, 111);
+  --theme--dim-orange: rgb(254, 214, 155);
+  --theme--dim-yellow: #fcffd8;
+  --theme--dim-green: #d4edda;
+  --theme--dim-blue: #cce5ff;
+  --theme--dim-purple: rgb(199, 178, 230);
+  --theme--dim-pink: rgb(255, 206, 228);
+  --theme--dim-red: #f8d7da;
+
+  --theme--accent-primary: var(--light_plus--accent_blue, rgb(46, 170, 220));
+  --theme--accent-primary_hover: var(--light_plus--accent_blue-hover, rgb(6, 156, 205));
+  --theme--accent-primary_contrast: var(--light_plus--accent_blue-text, #fff);
+  --theme--accent-primary_transparent: var( --light_plus--accent_blue-selection, rgb(46, 170, 220, 0.25) );
+  --theme--accent-secondary: var(--light_plus--accent_red, #eb5757);
+  --theme--accent-secondary_hover: var(--light_plus--accent_red-button, rgba(235, 87, 87, 0.1));
+  --theme--accent-secondary_contrast: var(--light_plus--accent_red-text, #fff);
+
+  --theme--scrollbar-thumb_hover: var(--light_plus--accent_highlight, #aeaca6);
+
+  --theme--code-inline_fg: #e0dfe2;
+  --theme--code-inline_bg: rgb(179, 39, 39);
+}
